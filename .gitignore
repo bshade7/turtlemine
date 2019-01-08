@@ -1,0 +1,5 @@
+
+src/bin/**
+src/TurtleMine/obj/**
+src/TurtleMineConfig/obj/**
+src/.vs/**
