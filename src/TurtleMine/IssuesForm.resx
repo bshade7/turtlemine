@@ -131,18 +131,6 @@
   <metadata name="cmsIssueList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>167, 17</value>
   </metadata>
-  <data name="chooseColumnsToDisplayToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="chooseColumnsToDisplayToolStripMenuItem.Text" xml:space="preserve">
-    <value>Choose Columns to Display</value>
-  </data>
-  <data name="resetIssueListDisplayToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="resetIssueListDisplayToolStripMenuItem.Text" xml:space="preserve">
-    <value>Reset Issue List Display</value>
-  </data>
   <metadata name="helpProviderToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
@@ -162,6 +150,9 @@
   <data name="lvwIssueList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <metadata name="helpProviderToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="lvwIssueList.HelpString" xml:space="preserve">
     <value>List of Redmine issues
 Columns can be sorted and rearranged
@@ -181,14 +172,14 @@ Right click for more options</value>
   </metadata>
   <data name="ilstSortImages.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAC2
-        AQAAAk1TRnQBSQFMAgEBAgEAAdABAAHQAQABCAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAEg
+        AQAAAk1TRnQBSQFMAgEBAgEAAdgBAAHYAQABCAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAEg
         AwABEAMAAQEBAAEgBgABCP8A/wBAAAMiATIDIgExWAADRwGAA0cBgBQAAyYBOAJlAV8B9ANfAfMDJgE4
-        VAABWgGcAWAB/wFTAZMBWAH/FAADPwFtAYEByAGLAf8BggHFAYoB/wNEAXpUAAFlAaYBgQH/AVwBnAFi
-        Af8YAAGBAbwBgQH/AYEBsQGBAf9YAAGBAbwBgQH/AYEBsQGBAf8YAAFlAaYBgQH/AVwBnAFiAf9UAAM/
-        AW0BgQHIAYsB/wGCAcUBigH/A0QBehQAAVoBnAFgAf8BUwGTAVgB/1QAAyYBOAJlAV8B9ANfAfMDJgE4
+        VAABWQGcAV8B/wFSAZMBVwH/FAADPwFtAYEByAGLAf8BggHFAYoB/wNEAXpUAAFkAaYBgQH/AVsBnAFh
+        Af8YAAGBAbwBgQH/AYEBsQGBAf9YAAGBAbwBgQH/AYEBsQGBAf8YAAFkAaYBgQH/AVsBnAFhAf9UAAM/
+        AW0BgQHIAYsB/wGCAcUBigH/A0QBehQAAVkBnAFfAf8BUgGTAVcB/1QAAyYBOAJlAV8B9ANfAfMDJgE4
         FAADRwGAA0cBgFgAAyIBMgMiATH/AP8AbgABQgFNAT4HAAE+AwABKAMAASADAAEQAwABAQEAAQEFAAFA
         FwAD/wEAAv8CAAL/AgAC/wIAAv8CAAH/AecCAAHnAcMCAAHnAcMCAALnAgAC5wIAAcMB5wIAAcMB5wIA
         AecB/wIAAv8CAAL/AgAC/wIAAv8CAAs=
@@ -232,6 +223,9 @@ Right click for more options</value>
   </data>
   <data name="wbrDescription.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="wbrDescription.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
   </data>
   <data name="wbrDescription.ShowHelp" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -295,6 +289,84 @@ Right click for more options</value>
   </data>
   <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="chooseColumnsToDisplayToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="chooseColumnsToDisplayToolStripMenuItem.Text" xml:space="preserve">
+    <value>Choose Columns to Display</value>
+  </data>
+  <data name="resetIssueListDisplayToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="resetIssueListDisplayToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reset Issue List Display</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeSummary.Name" xml:space="preserve">
+    <value>chkIncludeSummary</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeSummary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeSummary.Parent" xml:space="preserve">
+    <value>pnlOkCancel</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeSummary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>pnlOkCancel</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>pnlOkCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlOkCancel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="pnlOkCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 0</value>
+  </data>
+  <data name="pnlOkCancel.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>380, 0</value>
+  </data>
+  <data name="pnlOkCancel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlOkCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 32</value>
+  </data>
+  <data name="pnlOkCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pnlOkCancel.Name" xml:space="preserve">
+    <value>pnlOkCancel</value>
+  </data>
+  <data name="&gt;&gt;pnlOkCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlOkCancel.Parent" xml:space="preserve">
+    <value>pnlBottom</value>
+  </data>
+  <data name="&gt;&gt;pnlOkCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="chkIncludeSummary.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -416,33 +488,6 @@ Right click for more options</value>
   <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="pnlOkCancel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="pnlOkCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>407, 0</value>
-  </data>
-  <data name="pnlOkCancel.ShowHelp" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="pnlOkCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>411, 32</value>
-  </data>
-  <data name="pnlOkCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;pnlOkCancel.Name" xml:space="preserve">
-    <value>pnlOkCancel</value>
-  </data>
-  <data name="&gt;&gt;pnlOkCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlOkCancel.Parent" xml:space="preserve">
-    <value>pnlBottom</value>
-  </data>
-  <data name="&gt;&gt;pnlOkCancel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="btnNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
   </data>
@@ -518,6 +563,96 @@ Right click for more options</value>
   <data name="gbxSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
+  <data name="&gt;&gt;pnlSelection.Name" xml:space="preserve">
+    <value>pnlSelection</value>
+  </data>
+  <data name="&gt;&gt;pnlSelection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlSelection.Parent" xml:space="preserve">
+    <value>gbxSearch</value>
+  </data>
+  <data name="&gt;&gt;pnlSelection.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbxSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="gbxSearch.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbxSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 46</value>
+  </data>
+  <data name="gbxSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;gbxSearch.Name" xml:space="preserve">
+    <value>gbxSearch</value>
+  </data>
+  <data name="&gt;&gt;gbxSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxSearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbxSearch.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cboFields.Name" xml:space="preserve">
+    <value>cboFields</value>
+  </data>
+  <data name="&gt;&gt;cboFields.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboFields.Parent" xml:space="preserve">
+    <value>pnlSelection</value>
+  </data>
+  <data name="&gt;&gt;cboFields.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCheck.Name" xml:space="preserve">
+    <value>btnCheck</value>
+  </data>
+  <data name="&gt;&gt;btnCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCheck.Parent" xml:space="preserve">
+    <value>pnlSelection</value>
+  </data>
+  <data name="&gt;&gt;btnCheck.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlSelection.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="pnlSelection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 16</value>
+  </data>
+  <data name="pnlSelection.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlSelection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 27</value>
+  </data>
+  <data name="pnlSelection.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlSelection.Name" xml:space="preserve">
+    <value>pnlSelection</value>
+  </data>
+  <data name="&gt;&gt;pnlSelection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlSelection.Parent" xml:space="preserve">
+    <value>gbxSearch</value>
+  </data>
+  <data name="&gt;&gt;pnlSelection.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="cboFields.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
   </data>
@@ -587,93 +722,9 @@ Right click for more options</value>
   <data name="&gt;&gt;btnCheck.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="pnlSelection.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="pnlSelection.Location" type="System.Drawing.Point, System.Drawing">
-    <value>485, 16</value>
-  </data>
-  <data name="pnlSelection.ShowHelp" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="pnlSelection.Size" type="System.Drawing.Size, System.Drawing">
-    <value>330, 27</value>
-  </data>
-  <data name="pnlSelection.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pnlSelection.Name" xml:space="preserve">
-    <value>pnlSelection</value>
-  </data>
-  <data name="&gt;&gt;pnlSelection.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlSelection.Parent" xml:space="preserve">
-    <value>gbxSearch</value>
-  </data>
-  <data name="&gt;&gt;pnlSelection.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="gbxSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 2</value>
-  </data>
-  <data name="gbxSearch.ShowHelp" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="gbxSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>818, 46</value>
-  </data>
-  <data name="gbxSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="gbxSearch.Text" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="&gt;&gt;gbxSearch.Name" xml:space="preserve">
-    <value>gbxSearch</value>
-  </data>
-  <data name="&gt;&gt;gbxSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gbxSearch.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gbxSearch.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <metadata name="sspStatusVersion.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>531, 17</value>
   </metadata>
-  <data name="lblStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 20</value>
-  </data>
-  <data name="lblStatus.Text" xml:space="preserve">
-    <value>Status </value>
-  </data>
-  <data name="pbrLoading.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 19</value>
-  </data>
-  <data name="lblVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="lblVersion.Text" xml:space="preserve">
-    <value>Version</value>
-  </data>
-  <data name="lblUpdateAvailable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 20</value>
-  </data>
-  <data name="lblUpdateAvailable.ToolTipText" xml:space="preserve">
-    <value>New Version Available</value>
-  </data>
-  <data name="lblUpdateAvailable.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="lblUpdateCheckFailed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 20</value>
-  </data>
-  <data name="lblUpdateCheckFailed.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="sspStatusVersion.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 539</value>
   </data>
@@ -697,6 +748,36 @@ Right click for more options</value>
   </data>
   <data name="&gt;&gt;sspStatusVersion.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="lblStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Status </value>
+  </data>
+  <data name="pbrLoading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 19</value>
+  </data>
+  <data name="lblVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="lblVersion.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="lblUpdateAvailable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="lblUpdateAvailable.ToolTipText" xml:space="preserve">
+    <value>New Version Available</value>
+  </data>
+  <data name="lblUpdateAvailable.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblUpdateCheckFailed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="lblUpdateCheckFailed.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="btnTimeEntry.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -747,7 +828,7 @@ Right click for more options</value>
     <value>False</value>
   </data>
   <data name="btnOpenRedmine.HelpString" xml:space="preserve">
-    <value>Opens the Redmine webpage for the selected issue</value>
+    <value>Opens the APES webpage for the selected issue</value>
   </data>
   <data name="btnOpenRedmine.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -768,7 +849,7 @@ Right click for more options</value>
     <value>1</value>
   </data>
   <data name="btnOpenRedmine.Text" xml:space="preserve">
-    <value>&amp;Redmine</value>
+    <value>&amp;APES</value>
   </data>
   <data name="btnOpenRedmine.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageBeforeText</value>
@@ -824,21 +905,6 @@ Right click for more options</value>
   <data name="&gt;&gt;btnDescription.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="pnlDoMore.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pnlDoMore.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pnlDoMore.ShowHelp" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="pnlDoMore.Size" type="System.Drawing.Size, System.Drawing">
-    <value>407, 32</value>
-  </data>
-  <data name="pnlDoMore.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
   <data name="&gt;&gt;pnlDoMore.Name" xml:space="preserve">
     <value>pnlDoMore</value>
   </data>
@@ -878,6 +944,36 @@ Right click for more options</value>
   <data name="&gt;&gt;pnlBottom.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="pnlDoMore.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlDoMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlDoMore.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>360, 0</value>
+  </data>
+  <data name="pnlDoMore.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlDoMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>407, 32</value>
+  </data>
+  <data name="pnlDoMore.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pnlDoMore.Name" xml:space="preserve">
+    <value>pnlDoMore</value>
+  </data>
+  <data name="&gt;&gt;pnlDoMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlDoMore.Parent" xml:space="preserve">
+    <value>pnlBottom</value>
+  </data>
+  <data name="&gt;&gt;pnlDoMore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="tmrNewVersion.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>404, 17</value>
   </metadata>
@@ -900,7 +996,7 @@ Right click for more options</value>
     <value>CenterParent</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Redmine Issues</value>
+    <value>APES Issues</value>
   </data>
   <data name="&gt;&gt;chooseColumnsToDisplayToolStripMenuItem.Name" xml:space="preserve">
     <value>chooseColumnsToDisplayToolStripMenuItem</value>
