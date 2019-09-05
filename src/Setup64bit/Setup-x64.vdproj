@@ -383,9 +383,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:TurtleMine (v1.3)"
+        "ProductName" = "8:TurtleMine (v1.4)"
         "ProductCode" = "8:{CC01DB1E-6E2D-40E2-A91B-DD1F903C6B8F}"
-        "PackageCode" = "8:{90DE9A5B-33AF-47F8-813F-9AACB1730794}"
+        "PackageCode" = "8:{EB251413-5B28-436D-BB7D-2850354ED625}"
         "UpgradeCode" = "8:{44742092-67EA-4A4A-8662-789B01AB45C2}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
