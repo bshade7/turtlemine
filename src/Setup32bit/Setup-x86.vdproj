@@ -450,15 +450,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:TurtleMine (v1.3)"
-        "ProductCode" = "8:{F779CB73-8F06-4366-B2EB-C7C0258F4D84}"
-        "PackageCode" = "8:{69ACB299-DDC3-438A-8463-02613219D005}"
+        "ProductCode" = "8:{095DB9AF-D707-4477-90E4-1D4315856839}"
+        "PackageCode" = "8:{D734C48C-F7B0-41A0-AF05-003FC43CC5D3}"
         "UpgradeCode" = "8:{44742092-67EA-4A4A-8662-789B01AB45C2}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.3.0"
+        "ProductVersion" = "8:1.4.0"
         "Manufacturer" = "8:TurtleMine"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:http://code.google.com/p/turtlemine/"
@@ -474,7 +474,7 @@
         "UseSystemSearchPath" = "11:TRUE"
         "TargetPlatform" = "3:0"
         "PreBuildEvent" = "8:"
-        "PostBuildEvent" = "8:$(ProjectDir)..\\SetupShared\\VersionAndSignReleases.bat 1.3.0.0 $(Configuration) x86"
+        "PostBuildEvent" = "8:$(ProjectDir)..\\SetupShared\\VersionAndSignReleases.bat 1.4.0.0 $(Configuration) x86"
         "RunPostBuildEvent" = "3:0"
         }
         "Registry"
@@ -1162,7 +1162,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_4073AAC46C0A4F3AA16D007F5CE222BD"
             {
-            "SourcePath" = "8:..\\TurtleMine\\obj\\x86\\Release\\TurtleMine.dll"
+            "SourcePath" = "8:..\\TurtleMine\\obj\\x64\\Debug\\TurtleMine.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A5C0545875A140F199409DF6E2D109D9"
@@ -1218,7 +1218,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_86F73A9B817647DDBFAA208E071DFD00"
             {
-            "SourcePath" = "8:..\\TurtleMineConfig\\obj\\x86\\Release\\TurtleMineConfig.exe"
+            "SourcePath" = "8:..\\TurtleMineConfig\\obj\\x64\\Debug\\TurtleMineConfig.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A5C0545875A140F199409DF6E2D109D9"
